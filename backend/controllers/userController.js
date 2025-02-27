@@ -1,11 +1,13 @@
-import bcrypt from 'bcrypt'
-import { v2 as cloudinary } from 'cloudinary'
-import jwt from 'jsonwebtoken'
-import razorpay from 'razorpay'
-import validator from 'validator'
-import appointmentModel from '../models/appointmentModel.js'
-import doctorModel from '../models/doctorModel.js'
-import userModel from '../models/userModel.js'
+// import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs';
+
+import { v2 as cloudinary } from 'cloudinary';
+import jwt from 'jsonwebtoken';
+import razorpay from 'razorpay';
+import validator from 'validator';
+import appointmentModel from '../models/appointmentModel.js';
+import doctorModel from '../models/doctorModel.js';
+import userModel from '../models/userModel.js';
 //api to register user
 const registerUser=async(req,res)=>{
     try{
@@ -284,5 +286,5 @@ const verifyRazorPay=async(req,res)=>{
     }
 }
 
-export { bookAppointment, cancelAppointment, getProfile, listAppointment, loginUser, paymentRazorPay, registerUser, updateProfile, verifyRazorPay }
+export { bookAppointment, cancelAppointment, getProfile, listAppointment, loginUser, paymentRazorPay, registerUser, updateProfile, verifyRazorPay };
 
