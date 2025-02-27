@@ -6,6 +6,8 @@ import connectDB from './config/mongodb.js';
 import adminRouter from './routes/adminRoute.js';
 import doctorRouter from './routes/doctorRoute.js';
 import userRouter from './routes/userRoute.js';
+// const bcrypt = require('bcrypt');
+
 //app
 const app= express();
 //port number
