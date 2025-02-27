@@ -20,9 +20,9 @@ app.use(express.json())
 
 
 // app.use(cors())
-app.use(cors({ 
-  origin: "https://doctor-frontend-sz9n.onrender.com",
-  credentials: true 
+app.use(cors({
+  origin: ["https://doctor-frontend-sz9n.onrender.com",'http://localhost:5173','http://localhost:5174','https://doctor-admin-zpfq.onrender.com'],
+  credentials: true
 }));
 
 //end point
