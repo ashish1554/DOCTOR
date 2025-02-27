@@ -21,7 +21,7 @@ app.use(express.json())
 
 // app.use(cors())
 app.use(cors({ 
-  origin: "https://doctor-frontend-sz9n.onrender.com/",
+  origin: "https://doctor-frontend-sz9n.onrender.com",
   credentials: true 
 }));
 
