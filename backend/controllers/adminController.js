@@ -1,11 +1,12 @@
 
-import bcrypt from 'bcrypt'
-import { v2 as cloudinary } from 'cloudinary'
-import jwt from 'jsonwebtoken'
-import validator from 'validator'
-import appointmentModel from '../models/appointmentModel.js'
-import doctorModel from "../models/doctorModel.js"
-import userModel from '../models/userModel.js'
+// import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs';
+import { v2 as cloudinary } from 'cloudinary';
+import jwt from 'jsonwebtoken';
+import validator from 'validator';
+import appointmentModel from '../models/appointmentModel.js';
+import doctorModel from "../models/doctorModel.js";
+import userModel from '../models/userModel.js';
 
 //API for adding doctors
 
@@ -161,5 +162,5 @@ const adminDashboard=async(req,res)=>{
     }
 }
 
-export { addDoctor, adminDashboard, allDoctors, appointmentCancel, appointmentsAdmin, loginAdmin }
+export { addDoctor, adminDashboard, allDoctors, appointmentCancel, appointmentsAdmin, loginAdmin };
 

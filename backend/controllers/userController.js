@@ -1,6 +1,5 @@
 // import bcrypt from 'bcrypt'
 import bcrypt from 'bcryptjs';
-
 import { v2 as cloudinary } from 'cloudinary';
 import jwt from 'jsonwebtoken';
 import razorpay from 'razorpay';
