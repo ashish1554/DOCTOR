@@ -17,7 +17,13 @@ connectCloudinary()
 
 //middlewares
 app.use(express.json())
-app.use(cors())
+
+
+// app.use(cors())
+app.use(cors({ 
+  origin: "https://doctor-frontend-sz9n.onrender.com/",
+  credentials: true 
+}));
 
 //end point
 app.use('/api/admin',adminRouter);
