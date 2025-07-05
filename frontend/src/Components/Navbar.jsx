@@ -16,7 +16,7 @@ const Navbar = () => {
     const logout=()=>{
         setToken(false)
         localStorage.removeItem('token')
-        navigate('/')
+        
     }
 return (
     <div className='flex items-center justify-between text-sm py-4 border-b mb-5 border-b-gray-500'>

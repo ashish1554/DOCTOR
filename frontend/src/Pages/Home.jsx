@@ -1,4 +1,3 @@
-import React from 'react'
 import Banner from '../Components/Banner'
 import Header from '../Components/Header'
 import SpecialityMenu from '../Components/SpecialityMenu'
