@@ -32,7 +32,7 @@ const Contact = () => {
           </p>
           <p className='text-sm'>
             Tel: (415)555‑0132 <br />
-            Email: greatstackdev@gmail.com
+            Email: abc@gmail.com
           </p>
           <p className=' text-gray-700 font-bold'>Careers at PRESCRIPTO</p>
           <p className='text-sm'>
