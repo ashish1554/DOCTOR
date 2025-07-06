@@ -6,6 +6,7 @@ const storage=multer.diskStorage({
     }
 })
 
+
 const upload=multer({storage})
 
 //multer middleware to upload files
